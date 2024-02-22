@@ -2,9 +2,9 @@ import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
-    <header className="flex justify-between font-bold text-lg px-2 py-12">
+    <header className="flex justify-between font-bold text-lg px-2 py-4">
       <div>
-        <Link to="/">The Tree</Link>
+        <Link to="/"> 🌳 The Tree</Link>
       </div>
       <div>
         <Link to="/nft">NFT</Link>
