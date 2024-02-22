@@ -1,7 +1,7 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Main from "./pages/main";
-import Mint from "./pages/nft";
-import Dao from "./pages/governance";
+import Nft from "./pages/nft";
+import Governance from "./pages/governance";
 import Layout from "./components/Layout";
 
 const App = () => {
